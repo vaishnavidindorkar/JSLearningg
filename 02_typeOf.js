@@ -19,3 +19,6 @@ var totalCount = 107;
 console.log(totalCount);
 console.log(typeof totalCount);
 
+var salary = null;
+console.log(typeof salary);
+
