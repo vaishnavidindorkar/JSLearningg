@@ -24,8 +24,10 @@ var result2 = result.charAt(0);
 var result3 = str.charAt(endTrim.length - 1);
 console.log(`After trim the first occurence of string is : ${result2}` ,`Last Chracter is : ${result3}`);
 console.log(`=========step 6 =============`);
-var count123 = str.length;
-console.log(`Count of total words available is string : ${7}`);
+var words = str.split(" ");
+   var wordCount  = words.length;
+
+console.log(`Count of total words available is string : ${wordCount}`);
 
 
 console.log(`===========step 7 ===========`);
