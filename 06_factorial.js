@@ -22,13 +22,21 @@ factorial(5);
 console.log(`Factorial using recursion is: ${fact}`);
 
 
-function factorial(num) {
-    if (num === 0) {
-       return 1; 
-    } else {
-       return num * factorial(num - 1);  
+function factorial(n){
+    let answer = 1;
+    if (n == 0 || n == 1){
+      return answer;
     }
- }
- 
- var result1 = factorial(5);
- console.log(`Factorial using recursion is: ${result1}`);
+    else if(n > 1){
+      for(var i = n; i >= 1; i--){
+        answer = answer * i;
+      }
+      return answer;
+    }
+    else{
+      return "number has to be positive."
+    }  
+  }
+  let n = 5;
+  answer = factorial(n)
+  console.log("Factorial of " + n + " : " + answer);
