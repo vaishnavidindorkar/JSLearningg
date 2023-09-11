@@ -19,7 +19,7 @@ arrayNumbers.forEach((currentValue)=>{
 
 if (currentValue < 0) {
  // var currentValue = newarray();
-   console.log(`negative nos : ${currentValue}`);
+   console.log(currentValue);
  
     
 }
